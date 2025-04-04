@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pythonlast
+  description: Python app that displays time - named pythonlast
+  annotations:
+    github.com/project-slug: 4uganesh/pythonlast
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
